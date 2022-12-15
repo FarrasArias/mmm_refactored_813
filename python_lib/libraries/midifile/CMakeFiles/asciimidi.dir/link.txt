@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/asciimidi.dir/tools/asciimidi.cpp.o -o asciimidi  libmidifile.a 

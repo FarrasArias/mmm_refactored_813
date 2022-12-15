@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/tohex.dir/tools/tohex.cpp.o -o tohex  libmidifile.a 

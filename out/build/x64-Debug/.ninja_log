@@ -1,5 +1,0 @@
-# ninja log v5
-3	279	6817111227279612	CMakeFiles/mmm_refactored.dir/src/main.cpp.obj	b9d9bfff48cbd507
-0	278	6817111227279612	CMakeFiles/mmm_refactored.dir/src/midi_io.cpp.obj	35c8616b322fd97f
-279	772	6817111228140422	mmm_refactored.exe	fdf1e7744c7fd1e0
-1	139	6818057415061287	build.ninja	55e82d0b45c2be37

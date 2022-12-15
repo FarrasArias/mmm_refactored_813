@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/binasc.dir/tools/binasc.cpp.o -o binasc  libmidifile.a 

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/midi2skini.dir/tools/midi2skini.cpp.o -o midi2skini  libmidifile.a 

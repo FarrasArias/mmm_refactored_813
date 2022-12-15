@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/textmidi.dir/tools/textmidi.cpp.o -o textmidi  libmidifile.a 

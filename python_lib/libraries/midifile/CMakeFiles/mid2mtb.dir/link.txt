@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/mid2mtb.dir/tools/mid2mtb.cpp.o -o mid2mtb  libmidifile.a 

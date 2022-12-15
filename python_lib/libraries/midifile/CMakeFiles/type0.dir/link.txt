@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/type0.dir/tools/type0.cpp.o -o type0  libmidifile.a 

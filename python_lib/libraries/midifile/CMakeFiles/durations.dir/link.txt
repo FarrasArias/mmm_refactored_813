@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/durations.dir/tools/durations.cpp.o -o durations  libmidifile.a 

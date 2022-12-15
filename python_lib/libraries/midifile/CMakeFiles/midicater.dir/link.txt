@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/midicater.dir/tools/midicater.cpp.o -o midicater  libmidifile.a 

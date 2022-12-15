@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/shutak.dir/tools/shutak.cpp.o -o shutak  libmidifile.a 

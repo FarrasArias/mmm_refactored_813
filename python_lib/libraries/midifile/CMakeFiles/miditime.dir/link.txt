@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/miditime.dir/tools/miditime.cpp.o -o miditime  libmidifile.a 

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/createmidifile2.dir/tools/createmidifile2.cpp.o -o createmidifile2  libmidifile.a 

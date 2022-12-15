@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/midimixup.dir/tools/midimixup.cpp.o -o midimixup  libmidifile.a 
