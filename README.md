@@ -1,6 +1,4 @@
-[![N|Solid](https://drive.google.com/uc?export=view&id=1u4xiWN3s0PAii8zn3-qxJ7wn35tBOypY)](https://metacreation.net/category/projects/)
-
-# MMM API Docs
+# MMM_Refactored
 
 **Table of contents**
 - Linux mmm_api Installation
@@ -17,7 +15,7 @@
 [here](https://download.pytorch.org/libtorch/cpu/libtorch-cxx11-abi-shared-with-deps-1.12.1%2Bcpu.zip) is the Torch version the system currently supports.
 [here](https://github.com/pybind/pybind11) is the Pybind11 folder. [here](https://github.com/craigsapp/midifile) is the Midi File repo.
 
-> **Note:** unzip the Torch .zip and copy the libtorch folder in mmm_refactored/libraries (replace the current empty libtorch folder). Likewise, replace the empty Pybind11 folder for the one downloaded from github. Do the same for the midifile repo.
+> **Note:** unzip the Torch .zip and copy the libtorch folder in mmm_refactored/libraries. Likewise, replace the empty Pybind11 folder for the one downloaded from github. Do the same for the midifile repo.
 
 4. That's pretty much it! Run the library creation folder to create the python library on your machine. For now, the library is created as an SO file in the python_lib folder. Make sure you copy the library into the folders of your python project!
 ```sh
