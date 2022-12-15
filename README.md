@@ -4,7 +4,7 @@
 - Linux mmm_api Installation
 - Compute Canada mmm_api Installation
 - mmm_refactored
-- How encoders work
+- Create a Dataset
 
 ## Linux mmm_api Installation
 1. First, make sure to clone the MMM_API_refactored in your machine.
