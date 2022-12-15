@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/retick.dir/tools/retick.cpp.o -o retick  libmidifile.a 

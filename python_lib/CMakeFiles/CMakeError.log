@@ -1,0 +1,23 @@
+Determining if files humdrum.h exist failed with the following output:
+Change Dir: /mnt/c/users/user/source/repos/mmm_refactored/python_lib/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_54f01/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_54f01.dir/build.make CMakeFiles/cmTC_54f01.dir/build
+gmake[1]: Entering directory '/mnt/c/users/user/source/repos/mmm_refactored/python_lib/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54f01.dir/HAVE_HUMDRUM_H.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_54f01.dir/HAVE_HUMDRUM_H.c.o -c /mnt/c/users/user/source/repos/mmm_refactored/python_lib/CMakeFiles/CheckIncludeFiles/HAVE_HUMDRUM_H.c
+/mnt/c/users/user/source/repos/mmm_refactored/python_lib/CMakeFiles/CheckIncludeFiles/HAVE_HUMDRUM_H.c:2:10: fatal error: humdrum.h: No such file or directory
+    2 | #include <humdrum.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_54f01.dir/build.make:78: CMakeFiles/cmTC_54f01.dir/HAVE_HUMDRUM_H.c.o] Error 1
+gmake[1]: Leaving directory '/mnt/c/users/user/source/repos/mmm_refactored/python_lib/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_54f01/fast] Error 2
+
+
+Source:
+/* */
+#include <humdrum.h>
+
+
+int main(void){return 0;}
+

@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+db8b0d95827cc93b835f6fc46fe87142 ../libraries/protobuf/build/enum.pb.h
+59297a2f5327ff1799e7e4167a3e0579 ../libraries/protobuf/build/midi.pb.h
+05d4bd9d574023143ab1dbde277e9d9f ../libraries/protobuf/build/midi_internal.pb.h
+205828fb807c1a5ccdd1ede5098e1c56 ../libraries/protobuf/build/test.pb.h
+a25a8ff9b76a9c36a783a41ee586cdfa ../libraries/protobuf/build/track_type.pb.h

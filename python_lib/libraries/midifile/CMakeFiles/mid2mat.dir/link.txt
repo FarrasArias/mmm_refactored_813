@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/mid2mat.dir/tools/mid2mat.cpp.o -o mid2mat  libmidifile.a 

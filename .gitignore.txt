@@ -1,0 +1,5 @@
+/libraries/pybind11
+!/libraries/pybind11/.gitkeep
+/libraries/libtorch
+!/libraries/libtorch/.gitkeep
+/libraries/libtorch_cpu

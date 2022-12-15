@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/toascii.dir/tools/toascii.cpp.o -o toascii  libmidifile.a 

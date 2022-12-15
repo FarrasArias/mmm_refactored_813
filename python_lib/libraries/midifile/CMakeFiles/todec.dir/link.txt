@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/todec.dir/tools/todec.cpp.o -o todec  libmidifile.a 

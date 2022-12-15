@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tobin.dir/tools/tobin.cpp.o -o tobin  libmidifile.a 

@@ -1,0 +1,411 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "mmm_refactored.cpython-310-x86_64-linux-gnu.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"PYBIND11_ADD_MODULE",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"libraries/pybind11/tools/pybind11Tools.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-D_GLIBCXX_USE_CXX11_ABI=1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "USE_C10D_GLOO"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_DISTRIBUTED"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_RPC"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_TENSORPIPE"
+				},
+				{
+					"define" : "mmm_refactored_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/mnt/c/Users/User/source/repos/mmm_refactored/libraries/protobuf/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/mnt/c/Users/User/source/repos/mmm_refactored/libraries/torch/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/mnt/c/Users/User/source/repos/mmm_refactored/libraries/midifile/include"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/mnt/c/Users/User/source/repos/mmm_refactored/libraries/pybind11/include"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/usr/include/python3.10"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/mnt/c/Users/User/source/repos/mmm_refactored/libraries/libtorch/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/mnt/c/Users/User/source/repos/mmm_refactored/libraries/libtorch/include/torch/csrc/api/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-D_GLIBCXX_USE_CXX11_ABI=1"
+				},
+				{
+					"fragment" : "-std=gnu++2a"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "USE_C10D_GLOO"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_DISTRIBUTED"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_RPC"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_TENSORPIPE"
+				},
+				{
+					"define" : "mmm_refactored_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/mnt/c/Users/User/source/repos/mmm_refactored/libraries/protobuf/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/mnt/c/Users/User/source/repos/mmm_refactored/libraries/torch/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/mnt/c/Users/User/source/repos/mmm_refactored/libraries/midifile/include"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/mnt/c/Users/User/source/repos/mmm_refactored/libraries/pybind11/include"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/usr/include/python3.10"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/mnt/c/Users/User/source/repos/mmm_refactored/libraries/libtorch/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/mnt/c/Users/User/source/repos/mmm_refactored/libraries/libtorch/include/torch/csrc/api/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					10,
+					10,
+					10,
+					4
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "mmm_proto::@6f3e06252c9260034476"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "mmm_torch::@392ab4ea81165c6d6838"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "midifile::@bd98602c11c28d11854c"
+		}
+	],
+	"id" : "mmm_refactored::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/mnt/c/Users/User/source/repos/mmm_refactored/libraries/libtorch/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../../../libraries/protobuf/build/libmmm_proto.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../../../libraries/torch/build/libmmm_torch.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "libraries/midifile/libmidifile.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../libraries/libtorch/lib/libtorch.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../libraries/libtorch/lib/libc10.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../libraries/libtorch/lib/libkineto.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../../libraries/libtorch/lib/libtorch_python.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libprotobuf.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,--no-as-needed,\"/mnt/c/Users/User/source/repos/mmm_refactored/libraries/libtorch/lib/libtorch_cpu.so\" -Wl,--as-needed",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libprotobuf.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../libraries/libtorch/lib/libc10.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,--no-as-needed,\"/mnt/c/Users/User/source/repos/mmm_refactored/libraries/libtorch/lib/libtorch.so\" -Wl,--as-needed",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "mmm_refactored",
+	"nameOnDisk" : "mmm_refactored.cpython-310-x86_64-linux-gnu.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/compression/lz4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/structs/train_config.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/dataset_manipulation/bytes_to_file.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/midi_io.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "src/lib.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "src/old_encoder/encoder_v2.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

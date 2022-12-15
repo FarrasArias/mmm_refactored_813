@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tobinary.dir/tools/tobinary.cpp.o -o tobinary  libmidifile.a 

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/smfdur.dir/tools/smfdur.cpp.o -o smfdur  libmidifile.a 
